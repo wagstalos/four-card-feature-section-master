@@ -1,0 +1,78 @@
+body{
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h3, h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+}
+.font-200{
+    font-weight: 200;
+}
+.container{
+    max-width: 1000px;
+    margin: 20px auto 0;
+}
+.text-gray{
+    color: #9ea0a8;
+}
+.text-center{
+    text-align: center;
+}
+.container-text{
+    max-width: 500px;
+    margin: 20px auto 0;
+}
+.attribution {
+    font-size: 11px;   
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.card{
+    background-color: #fff;
+    max-width: 300px;
+    margin: 20px auto 0;
+    padding: 25px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 6px 10px 3px rgba(175,183,219,.5);
+    -moz-box-shadow: 0px 6px 10px 3px rgba(175,183,219,.5);
+    box-shadow: 0px 6px 10px 3px rgba(175,183,219,.5);
+}
+.card-top-red{
+    border-top: #e23a51 4px solid;
+}
+.card-top-green{
+    border-top: #40d5d3 4px solid;
+}
+.card-top-yellow{
+    border-top: #fbad4b 4px solid;
+}
+.card-top-blue{
+    border-top: #519ff2 4px solid;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item-1 {
+	flex: 1;
+}
+/* Flex Item */
+.item {
+	margin: 10px;
+}
+@media only screen and (max-width: 800px) {
+    .flex {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+  }
